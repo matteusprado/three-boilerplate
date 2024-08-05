@@ -1,0 +1,86 @@
+# Ignore build output
+/dist/
+/build/
+
+# Ignore node modules
+/node_modules/
+
+# Ignore development dependencies
+/package-lock.json
+/yarn.lock
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore specific files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.pyc
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.tgz
+*.gz
+*.rar
+*.bz2
+*.7z
+*.psd
+*.db
+*.sqlite
+*.xls
+*.xlsx
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.odt
+*.ods
+*.odp
+*.csv
+*.pdf
+*.dll
+*.exe
+*.dmg
+*.iso
+*.img
+*.msi
+*.apk
+*.ipa
+*.keystore
+
+# Ignore specific directories
+/coverage/
+/reports/
+/temp/
+/logs/
+/tmp/
+/vendor/
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+.project
+.classpath
+.settings
+.cache
+nbproject/
+
+# Ignore OS-specific files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore Node.js-specific files
+.env
+npm-debug.log
+yarn-error.log
